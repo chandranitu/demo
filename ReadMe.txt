@@ -21,14 +21,6 @@ INSERT INTO users (id, email,first_name, last_name,password) VALUES (1, 'chandra
 
 -------------------------------
 
-https://kubernetes.io/docs/home/    ## reading
-
-
-https://www.codejava.net/frameworks/spring-boot/user-registration-and-login-tutorial
-https://www.javaguides.net/2019/08/registration-login-example-using-springboot-spring-data-jpa-hibernate-mysql-thymeleaf.html
-
-
-
 docker build -t logindocker .
 
 docker run -d --name logindocker -p 8080:8080  logindocker 
