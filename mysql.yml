@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: mysql
+  namespace: monitoring
+  labels:
+    env: dev
+
+spec:  
+  containers:
+  - name: mysqllogin
+    image: mysql    
